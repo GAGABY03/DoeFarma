@@ -1,12 +1,11 @@
 const mongoose = require('mongoose');
 
-const DoadorSchema = new mongoose.Schema({
-   id:{
-    type: mongoose.Types.ObjectId,
-    default: mongoose.Types.ObjectId
-   },
-      
-    nome_doador: {
+const PacienteSchema = new mongoose.Schema({
+    id: {
+        type: mongoose.Types.ObjectId,
+        default: mongoose.Types.ObjectId
+    },    
+    nome_paciente: {
         type: String,
         required: true
     },
@@ -14,13 +13,17 @@ const DoadorSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    email: {
+        type: String,
+        required: true
+    },
     cpf: {
         type: String,
         required: true
     },
-    email: {
+    data_nascimento: {
         type: String,
-        required: true
+        required: false
     },
     endereco: {
         cep: {
@@ -43,7 +46,7 @@ const DoadorSchema = new mongoose.Schema({
             type: String, 
             required: true
            },
-        estado:{
+        bairro:{
             type: String, 
             required: true
            },
@@ -51,32 +54,24 @@ const DoadorSchema = new mongoose.Schema({
             type: String, 
             required: true
            },
-        bairro:{
+        estado:{
             type: String, 
             required: true
            },
     },
     medicamento: {
         type: String,
-        required: true
+        required: false
     },
-    validade: {
+    forma_farmaceutica: {
         type: String,
         required: true
     },
-    lote: {
+    quantidade_medicamento: {
         type: String,
         required: true
-    },
-    medicamento_usado: {
-        type: String,
-        required: true
-    },
-    quantidade: {
-        type: String,
-        required: true
-    },
+    }
 
-}, { timestamps : true })
+}, { timestamps: true })
 
-module.exports = mongoose.model('doador', DoadorSchema)
+module.exports = mongoose.model('paciente', PacienteSchema)

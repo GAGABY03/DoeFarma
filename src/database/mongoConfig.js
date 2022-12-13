@@ -6,6 +6,7 @@ const connect = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
+        console.log("Bem vindos a #DoeFarma!")
         console.log("Banco de dados conectado!")
     } catch (error) {
         console.log(error.message)

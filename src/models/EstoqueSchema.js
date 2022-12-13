@@ -4,7 +4,7 @@ const EstoqueSchema = new mongoose.Schema({
     id: {
         type: mongoose.Types.ObjectId,
         default: mongoose.Types.ObjectId
-    },
+    },    
     nome_funcionario: {
         type: String,
         required: true
@@ -21,7 +21,7 @@ const EstoqueSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    classe_medicamento: {
+    forma_farmaceutica: {
         type: String,
         required: true
     },
@@ -33,31 +33,27 @@ const EstoqueSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    forma_farmaceutica: {
+    composicao: {
         type: String,
         required: true
     },
-    composicao: {
-        type: Array,
-        required: true
-    },
     acao_medicamentosa: {
-        type: Array,
+        type: String,
         required: true
     },
     contra_indicacao: {
-        type: Array,
+        type: String,
         required: true
     },
     medicamento_usado: {
-        type: Boolean,
+        type: String,
         required: true
     },
     quantidade_medicamento: {
-        type: Number,
+        type: String,
         required: true
     },
 
 }, { timestamps: true })
 
-module.exports = mongoose.model("doador", EstoqueSchema)
+module.exports = mongoose.model('estoque', EstoqueSchema)
