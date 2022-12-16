@@ -96,7 +96,8 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
  `dotenv`  Dependência para proteger dados sensíveis do projeto                                
 
  `mongoose` Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections     
- 
+
+                     
                                                                                                       
  `nodemon` Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente                                                                                                     
 
