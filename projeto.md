@@ -5,17 +5,22 @@
 <br>
 
 
-Projeto: Doe-Farma 
+
+
+PROJETO: Doe-Farma 
 
 
 DoeFarma, é um sistema de cadastro que busca conectar doadores de itens utilizados na saúde, como produtos e utensílios médico-hospitalares. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, equipamentos e utensílios para pessoas com deficiência, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunosuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
 
+
  
 
-Objetivo
+OBJETIVO
 
 
 Este projeto teve como principal objetivo oferecer medicamentos sem custos a pessoas que possuem baixo poder aquisitivo, devido a aumentos constantes no setor farmacêutico e produtos médico-hospitalares que tem deixado diversos pacientes sem poder iniciar ou continuar o tratamento. Além de proporcionar a qualidade de vida, este projeto também tem por finalidade promover uma conscientização social e ambiental, como bem sabemos a sociedade tem hábitos inadequados no descarte de medicamentos e equipamentos que não servem para uso, desta forma, será oferecido também treinamentos, palestras e oficinas para que seja feito o descarte consciente desse produtos.
+
+
 
 
 
@@ -25,81 +30,54 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
  📁 Projeto
 
-   | 📁 node_modules
+ 📁 node_modules
 
-   | 📁 src
+ 📁 src
 
-     |- 📁 controllers
-
-          |- 📄 authController.js
-   
-          |- 📄 doadorController.js
-   
-          |- 📄 estoqueController.js 
-   
-          |- 📄 pacienteController.js 
-   
-          |- 📄 voluntarioController.js 
+      📁 controllers
+          📄 authController.js
+          📄 doadorController.js
+          📄 estoqueController.js 
+          📄 pacienteController.js 
+          📄 voluntarioController.js 
 
 
-     |- 📁 database
-   
-          |- 📄 moogoConfig.js
+     📁 database
+          📄 moogoConfig.js
 
 
-     |-  📁  middlewares
-   
-          |- 📄 auth.js
+     📁  middlewares
+          📄 auth.js
 
       
-     |- 📁 models
-   
-          |- 📄 DoadorSchema.js
-
-          |- 📄 EstoqueSchema.js 
-
-          |- 📄 PacienteSchema.js 
-       
-          |- 📄 PacienteSchema.js
-           
-          |- 📄 UseSchema.js
-   
-          |- 📄 VoluntarioSchema.js
+     📁 models
+          📄 DoadorSchema.js
+          📄 EstoqueSchema.js 
+          📄 PacienteSchema.js 
+          📄 PacienteSchema.js  
+          📄 UseSchema.js   
+          📄 VoluntarioSchema.js
         
    
    
-     |- 📁 routes
-   
-         |- 📄 authRouter.js
-   
-         |- 📄 doadorRouter.js
-   
-         |- 📄 estoqueRouter.js 
-   
-         |- 📄 indexRouter.js 
-   
-         |- 📄 pacienteRouter.js 
-   
-         |- 📄 voluntarioRouter.js 
+     📁 routes
+         📄 authRouter.js
+         📄 doadorRouter.js   
+         📄 estoqueRouter.js   
+         📄 indexRouter.js    
+         📄 pacienteRouter.js   
+         📄 voluntarioRouter.js 
 
 
-   |- 📄 app.js
-   
-   |- 📄 .env
-   
-   |- 📄 .env.exemple
-   
-   |- 📄 .gitignore
-   
-   |- 📄 package-lock.json
-   
-   |- 📄 package.json
-   
-   |- 📄 projeto.md
-
-   |- 📄 server.js
-
-   |- 📄 vercel.json
+     📄 app.js  
+     📄 .env   
+     📄 .env.exemple    
+     📄 .gitignore  
+     📄 package-lock.json   
+     📄 package.json   
+     📄 projeto.md
+     📄 server.js
+     📄 vercel.json
 
 
 
