@@ -9,9 +9,7 @@
 
 PROJETO: DOE-FARMA
 
-
-DoeFarma, é um sistema de cadastro que busca conectar doadores de itens utilizados na saúde, como produtos e utensílios médico-hospitalares. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, equipamentos e utensílios para pessoas com deficiência, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunosuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
-
+Doe-Farma, é um sistema de cadastro que busca conectar doadores de itens utilizados na saúde, como produtos e utensílios médico-hospitalares. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, equipamentos e utensílios para pessoas com deficiência, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunossuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
 
  
 
@@ -97,8 +95,8 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
  `mongoose` Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections     
 
-                     
-                                                                                                      
+
+
  `nodemon` Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente                                                                                                     
 
  `npm ou yarn`Gerenciador de pacotes                                                    
