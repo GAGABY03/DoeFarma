@@ -26,65 +26,64 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
  📁 Projeto
 
    | 📁 node_modules
-   |
-   |
+
    | 📁 src
 
-   |    |- 📁 controllers
+     |- 📁 controllers
 
-   |         |- 📄 authController.js
+          |- 📄 authController.js
    
-   |         |- 📄 doadorController.js
+          |- 📄 doadorController.js
    
-   |         |- 📄 estoqueController.js 
+          |- 📄 estoqueController.js 
    
-   |         |- 📄 pacienteController.js 
+          |- 📄 pacienteController.js 
    
-   |         |- 📄 voluntarioController.js 
+          |- 📄 voluntarioController.js 
 
 
-   |    |- 📁 database
-   |
-   |         |- 📄 moogoConfig.js
+     |- 📁 database
+   
+          |- 📄 moogoConfig.js
 
 
-   |    |- 📁 📄 middlewares
-   |
-   |         |- 📄 auth.js
+     |-  📁  middlewares
+   
+          |- 📄 auth.js
 
       
-   |    |- 📁 models
+     |- 📁 models
    
-   |         |- 📄 DoadorSchema.js
+          |- 📄 DoadorSchema.js
 
-   |         |- 📄 EstoqueSchema.js 
+          |- 📄 EstoqueSchema.js 
 
-   |         |- 📄 PacienteSchema.js 
+          |- 📄 PacienteSchema.js 
        
-   |         |- 📄 PacienteSchema.js
+          |- 📄 PacienteSchema.js
            
-   |         |- 📄 UseSchema.js
+          |- 📄 UseSchema.js
    
-   |         |- 📄 VoluntarioSchema.js
+          |- 📄 VoluntarioSchema.js
         
    
    
-   |    |- 📁 routes
+     |- 📁 routes
    
-   |         |- 📄 authRouter.js
+         |- 📄 authRouter.js
    
-   |         |- 📄 doadorRouter.js
+         |- 📄 doadorRouter.js
    
-   |         |- 📄 estoqueRouter.js 
+         |- 📄 estoqueRouter.js 
    
-   |         |- 📄 indexRouter.js 
+         |- 📄 indexRouter.js 
    
-   |         |- 📄 pacienteRouter.js 
+         |- 📄 pacienteRouter.js 
    
-   |         |- 📄 voluntarioRouter.js 
+         |- 📄 voluntarioRouter.js 
 
 
-   |- 📁 📄 app.js
+   |- 📄 app.js
    
    |- 📄 .env
    
