@@ -3,12 +3,17 @@
 <img src='./src/doe-farma.png' width = 500 alt = 'logo doe-farma'>
 </div>
 <br>
+
+
 Projeto: Doe-Farma 
+
 
 DoeFarma, é um sistema de cadastro que busca conectar doadores de itens utilizados na saúde, como produtos e utensílios médico-hospitalares. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, equipamentos e utensílios para pessoas com deficiência, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunosuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
 
  
+
 Objetivo
+
 
 Este projeto teve como principal objetivo oferecer medicamentos sem custos a pessoas que possuem baixo poder aquisitivo, devido a aumentos constantes no setor farmacêutico e produtos médico-hospitalares que tem deixado diversos pacientes sem poder iniciar ou continuar o tratamento. Além de proporcionar a qualidade de vida, este projeto também tem por finalidade promover uma conscientização social e ambiental, como bem sabemos a sociedade tem hábitos inadequados no descarte de medicamentos e equipamentos que não servem para uso, desta forma, será oferecido também treinamentos, palestras e oficinas para que seja feito o descarte consciente desse produtos.
 
@@ -102,7 +107,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 ## Tecnologias que vamos usar:
 
 
-| Ferramenta   |           Descrição                                                                  |
+| Ferramenta   |           Descrição                                                                                |
 
 
 | `javascript` |                    Linguagem de programação                                                        |
@@ -122,7 +127,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
 | `Mongo Atlas`|           Interface gráfica para verificar se os dados foram persistidos                           |
 
-|`Insomnia     |                   Interface gráfica para realizar os testes                                        |
+|`Insomnia`    |                   Interface gráfica para realizar os testes                                        |
 
 
 
