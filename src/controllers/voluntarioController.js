@@ -117,7 +117,7 @@ const buscarVoluntarioPorId = async (request, response) => {
         })
         if (voluntario.length == 0) {
             return response.status(200).json({
-                message: `voluntario não encontrada.`
+                message: `Voluntario não encontrada.`
             })
         }
         response.status(200).json(voluntario)
@@ -172,12 +172,12 @@ const atualizarVoluntario = async (request, response) => {
 
         if (cadastroAtualizado.length == 0) {
             return response.status(404).json({
-                Prezado: `A voluntario não foi encontrado.`,
+                Prezado: `Voluntario não foi encontrado.`,
             });
         }
 
         response.status(200).send({
-            Prezado: "voluntario atualizado com sucesso",
+            Prezado: "Voluntario atualizado com sucesso",
             cadastroAtualizado,
         });
     } catch (error) {

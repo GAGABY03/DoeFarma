@@ -9,17 +9,9 @@
 
 PROJETO: DOE-FARMA
 
-Doe-Farma, é um sistema de cadastro que busca conectar doadores de itens utilizados na saúde, como produtos e utensílios médico-hospitalares. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, equipamentos e utensílios para pessoas com deficiência, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunossuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
+Doe-Farma, é um sistema de cadastro que busca conectar doadores que desejam doar medicamentos. Os volumes poderão ser ofertados de maneira gratuita para pacientes que ainda necessitam ou estejam fazendo uso contínuo destes produtos. Neste projeto é possível o recebimento dos seguintes: medicamentos na validade, curativos em geral, material de higiene pessoal, produtos que diminuam os casos de feridas por decúbito em pessoas com mobilidade reduzida, doentes de câncer ou imunossuprimidos. A intenção do app é conectar possíveis fontes de recebimento, com a comprovação da necessidade, pois desta forma, os que estão realizando a doação terão certeza do destino.
 
  
-
-OBJETIVO
-
-
-Este projeto teve como principal objetivo oferecer medicamentos sem custos a pessoas que possuem baixo poder aquisitivo, devido a aumentos constantes no setor farmacêutico e produtos médico-hospitalares que tem deixado diversos pacientes sem poder iniciar ou continuar o tratamento. Além de proporcionar a qualidade de vida, este projeto também tem por finalidade promover uma conscientização social e ambiental, como bem sabemos a sociedade tem hábitos inadequados no descarte de medicamentos e equipamentos que não servem para uso, desta forma, será oferecido também treinamentos, palestras e oficinas para que seja feito o descarte consciente desse produtos.
-
-
-
 
 
  📁 Arquitetura
@@ -99,7 +91,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
  `nodemon` Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente                                                                                                     
 
- `npm ou yarn`Gerenciador de pacotes                                                    
+ `npm` Gerenciador de pacotes                                                    
 
  `MongoDb` Banco de dado não relacional orietado a documentos                                     
 
@@ -107,6 +99,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
 `Insomnia` Interface gráfica para realizar os testes                                   
 
+`jwt` Padrão para autenticação e compartilhamento de informações
 
 
  <br>
@@ -198,7 +191,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 <br>
 
 
-## Dados para Projeto Doe-Farma
+## Dados do Projeto Doe-Farma
 
 
 #Doadores:
@@ -312,7 +305,7 @@ Este projeto teve como principal objetivo oferecer medicamentos sem custos a pes
 
   {
 
-     "Bem_vindas": "Parabéns por sua iniciativa! O seu usuário foi cadastrado!",
+     "Bem_vindos (as)": "Parabéns por sua iniciativa! O seu usuário foi cadastrado!",
 
      "Cadastro": {
 

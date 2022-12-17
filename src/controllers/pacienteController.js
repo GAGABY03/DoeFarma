@@ -120,7 +120,7 @@ const buscarPacientePorId = async (request, response) => {
         })
         if (paciente.length == 0) {
             return response.status(200).json({
-                message: `paciente não encontrada.`
+                message: `Paciente não encontrado.`
             })
         }
         response.status(200).json(paciente)
@@ -149,11 +149,11 @@ const deletarPaciente = async (request, response) => {
         })
         if (pacienteEncontrado.deletedCount === 1) {
             return response.status(200).send({
-                message: `A paciente foi deletado com sucesso!`
+                message: `Paciente foi deletado com sucesso!`
             })
         } else {
             return response.status(404).send({
-                message: "A paciente não foi encontrado."
+                message: "Paciente não foi encontrado."
             })
         }
 
@@ -193,12 +193,12 @@ const atualizarPaciente = async (request, response) => {
 
         if (cadastroAtualizado.length == 0) {
             return response.status(404).json({
-                Prezado: `A paciente não foi encontrado.`,
+                Prezado: `Paciente não foi encontrado.`,
             });
         }
 
         response.status(200).send({
-            Prezado: "paciente atualizado com sucesso",
+            Prezado: "Paciente atualizado com sucesso",
             cadastroAtualizado,
         });
     } catch (error) {

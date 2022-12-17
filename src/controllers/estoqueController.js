@@ -85,7 +85,7 @@ const buscarTodosMedicamentos = async (request, response) => {
             })
         } else {
             return response.status(404).json({
-                message: `Nenhum medicamento  cadastrado até o momento.`
+                message: `Nenhum medicamento cadastrado até o momento.`
             })
         }
 

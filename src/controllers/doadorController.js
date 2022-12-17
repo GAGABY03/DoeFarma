@@ -32,7 +32,7 @@ const criarDoador= async (request, response) => {
             });
               const salvarDoador = await doador.save();
               response.status(201).json({
-                message: `Doador cadastrada com sucesso!`,
+                message: `Doador cadastrado com sucesso!`,
                 doador: salvarDoador,
               });
             } catch (error) {
@@ -55,12 +55,12 @@ const buscarTodosDoadores = async (request, response) => {
             })
         } else if (Doador.length == 1) {
             return response.status(200).json({
-                message: `Encontramos ${Doador.length} Doador.`,
+                message: `Encontramos ${Doador.length} doador.`,
                 Doador
             })
         } else {
             return response.status(404).json({
-                message: `Nenhum Doador  cadastrado até o momento.`
+                message: `Nenhum doador cadastrado até o momento.`
             })
         }
 
@@ -87,7 +87,7 @@ const buscarDoadorPorId = async (request, response) => {
         })
         if (Doador.length == 0) {
             return response.status(200).json({
-                message: `Doador não encontrada.`
+                message: `Doador não encontrado.`
             })
         }
         response.status(200).json(Doador)
@@ -107,7 +107,7 @@ const deletarDoador = async (request, response) => {
     try {
         if (id.length < 24 || id.length > 24) {
             return response.status(404).json({
-                message: `Por favor digite o id da Doador corretamente, o mesmo possui 24 caracteres.`
+                message: `Por favor digite o id da doador corretamente, o mesmo possui 24 caracteres.`
             })
         }
         const doadorEncontrado = await DoadorSchema.deleteOne({
@@ -115,11 +115,11 @@ const deletarDoador = async (request, response) => {
         })
         if (doadorEncontrado.deletedCount === 1) {
             return response.status(200).send({
-                message: `A Doador foi deletado com sucesso!`
+                message: `Doador deletado com sucesso!`
             })
         } else {
             return response.status(404).send({
-                message: "A Doador não foi encontrado."
+                message: "O Doador não foi encontrado."
             })
         }
 
@@ -143,7 +143,7 @@ const atualizarDoador = async (request, response) => {
       
       if (cadastroAtualizado.length == 0) {
         return response.status(404).json({
-          Prezado: `A doador não foi encontrado.`,
+          Prezado: `Doador não foi encontrado.`,
         });
       }
       
